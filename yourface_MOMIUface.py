@@ -5,7 +5,7 @@ import face_recognition
 import pygame
 
 face_locations = []
-cap = cv2.VideoCapture(0)#("C:/Users/pattp/Videos/head-pose-face-detection-female-and-male.mp4",0)#imread('./3000.jpg')
+cap = cv2.VideoCapture(0)
 
 width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
 height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
